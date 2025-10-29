@@ -24,7 +24,7 @@ requirements:
     - numpy
     - scipy
     - packaging
-    - mopac >=23.2.1
+    - mopac >=23.2.2
 
 test:
   imports:
