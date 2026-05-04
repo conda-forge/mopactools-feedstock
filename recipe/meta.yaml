@@ -1,5 +1,5 @@
 {% set name = "mopactools" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openmopac/mopactools/archive/v{{ version }}.tar.gz
-  sha256: 7c9971f69697e265289f9314dd7270e5ec8ed1b6810ef3d8b5842d6819bdb159
+  sha256: c9e0a79437265199293152fc9dd6f44a94ef2ae774e016325b383e08a345655d
 
 build:
   noarch: python
